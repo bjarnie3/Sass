@@ -1,0 +1,454 @@
+@charset "UTF-8";
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+h1 {
+  font-size: 6px; }
+
+h2 {
+  font-size: 2px; }
+
+h3 {
+  font-size: 5;
+  opacity: 0.4;
+  padding-right: 3.5px; }
+
+h4 {
+  width: 20px;
+  width: 30px;
+  width: 12px; }
+
+h2:after {
+  content: "Leturgerðin er: sans-srif."; }
+
+h2 {
+  padding: 25px; }
+
+h2:after {
+  contain: "var1 and var2 are false"; }
+
+h2:after {
+  content: "nafnið er: Bjarni Einarsson"; }
+
+h1 {
+  color: #66c8ff; }
+
+h2 {
+  color: #ff2b5b; }
+
+.button:visited {
+  color: white; }
+.button:hover {
+  color: white; }
+.button:active {
+  color: white; }
+
+.button > span {
+  color: white; }
+.button + span {
+  color: white; }
+.button ~ span {
+  color: white; }
+
+.btn-primary {
+  color: white; }
+.btn-secondary {
+  color: white; }
+
+body.page-about .button {
+  color: white; }
+
+h2:after {
+  content: "Leturgerðin er: sans-serif."; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul, li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer; }
+
+#main .button {
+  background-color: red; }
+
+p {
+  font-size: 16px; }
+
+h1 {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; }
+
+a {
+  color: blue;
+  background-color: red; }
+
+#main a {
+  color: white; }
+  #main a:visited {
+    color: blue; }
+  #main a:hover {
+    color: green; }
+  #main a:active {
+    color: red; }
+
+p {
+  border-color: blue;
+  border-width: 1in;
+  border-style: dashed; }
+
+h1 {
+  border-color: blue;
+  border-width: 2in;
+  border-style: dashed; }
+
+p {
+  border-color: blue;
+  border-width: 1in;
+  border-style: dashed; }
+
+h1 {
+  border-color: blue;
+  border-width: 2in;
+  border-style: dashed; }
+
+/*
+.shadows (
+    @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);
+)
+*/
+.message, .success, .error, .seriusError, .criticalError, .warning, .success, .error, .seriusError, .criticalError, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error, .seriusError, .criticalError {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
+.error, .seriusError, .criticalError {
+  border: 1px #f00;
+  background-color: #fdd; }
+
+.attention, .seriusError, .criticalError {
+  font-size: 3em;
+  background-color: #ff0; }
+
+.seriusError, .criticalError {
+  border-width: 3px; }
+
+.criticalError {
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%; }
+
+.bar, .baz {
+  color: red; }
+
+.bar {
+  background: blue; }
+
+.baz {
+  background: yellow; }
+
+.foo, .bar, .baz {
+  text-indent: -999px;
+  overflow: hidden; }
+
+.foo {
+  border-radius: 5px; }
+
+.bar {
+  border-radius: 7px; }
+
+.baz {
+  border-radius: 9px; }
+
+#main p {
+  color: #00ff00;
+  width: 97%; }
+  #main p .redbox {
+    background-color: #ff0000;
+    color: #000000; }
+
+#main {
+  width: 97%; }
+  #main p, #main div {
+    font-size: 2em; }
+    #main p a, #main div a {
+      font-weight: bold; }
+  #main pre {
+    font-size: 3em; }
+
+a {
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  body.firefox a {
+    font-weight: normal; }
+
+#main {
+  color: black; }
+  #main a {
+    font-weight: bold; }
+    #main a:hover {
+      color: red; }
+
+#main {
+  color: black; }
+  #main-sidebar {
+    border: 1px soldid; }
+
+.funky {
+  font-family: fantasy;
+  font-size: 30em;
+  font-weight: bold; }
+
+.funky1 {
+  font: 20px/24px fantasy;
+    font-weight: bold; }
+
+.stuff-1 {
+  color: #111;
+  background-color: #4BC2A5;
+  border: 1px solid #FF9900; }
+
+.stuff-2 {
+  color: #222;
+  background-color: #606F40;
+  border: 1px solid #77FF66; }
+
+.stuff-3 {
+  color: #333;
+  background-color: #6648CA;
+  border: 1px solid #73C227; }
+
+.stuff-4 {
+  color: #444;
+  background-color: #6B6022;
+  border: 1px solid #C23E50; }
+
+.stuff-5 {
+  color: #555;
+  background-color: #2F54E9;
+  border: 1px solid #7BAFC2; }
+
+h1 {
+  background-color: #6648CA; }
+
+.color-red {
+  background: "#ff0000"; }
+
+.color-green {
+  background: "#00ff00"; }
+
+.color-blue {
+  background: "#0000ff"; }
+
+.btnroot {
+  background: #ededed;
+  border: 1px solid #555;
+  color: #555;
+  padding: 1em 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1rem; }
+  a.btnroot {
+    text-decoration: none; }
+
+.parent {
+  font-size: 1rem;
+  padding: 1em 2em; }
+  .likely-modified {
+    font-size: 1.5em; }
+
+.parent {
+  font-size: 1rem;
+  padding: 1em 2em; }
+
+.likely-modified {
+  font-size: 1.5em; }
+
+.brand-button {
+  background: #6dcff6; }
+
+.brand-button:hover {
+  background: #cdeffc; }
+
+.brand-button:visited {
+  background: #0fafee; }
+
+.modal.focus {
+  background: #6dcff6; }
+
+.modal.blur {
+  background: rgba(109, 207, 246, 0.7); }
+
+.main-content {
+  background: #6dcff6; }
+
+.container {
+  padding: 300px; }
+
+.inner-container {
+  width: 45.045045045%; }
+
+p {
+  border: 1px solid; }
+
+p1 {
+  color: white; }
+
+.txt1 {
+  color: white; }
+
+.txt2 {
+  color: white;
+  font-weight: bold; }
+
+.item-1 {
+  width: 2em; }
+
+.item-2 {
+  width: 4em; }
+
+.item-3 {
+  width: 6em; }
+
+.bob-avatar {
+  background-image: url("/img/bob.png"); }
+
+.john-avatar {
+  background-image: url("/img/john.png"); }
+
+.bill-avatar {
+  background-image: url("/img/bill.png"); }
+
+.mike-avatar {
+  background-image: url("/img/mike.png"); }
+
+.type-button {
+  color: yellow;
+  background-color: red; }
+
+.type-button {
+  color: white;
+  background-color: green; }
+
+.type-button {
+  color: blue;
+  background-color: transparent; }
+
+.bob-picture {
+  background-image: url("/img/bob.png"); }
+
+.john-picture {
+  background-image: url("/img/john.png"); }
+
+.bill-picture {
+  background-image: url("/img/bill.png"); }
+
+.mike-picture {
+  background-image: url("/img/mike.png"); }
+
+.col-1 {
+  width: 8.3333333333px; }
+
+.col-2 {
+  width: 16.6666666667px; }
+
+.col-3 {
+  width: 25px; }
+
+.col-4 {
+  width: 33.3333333333px; }
+
+.col-5 {
+  width: 41.6666666667px; }
+
+.col-6 {
+  width: 50px; }
+
+.col-7 {
+  width: 58.3333333333px; }
+
+.col-8 {
+  width: 66.6666666667px; }
+
+.col-9 {
+  width: 75px; }
+
+.col-10 {
+  width: 83.3333333333px; }
+
+.col-11 {
+  width: 91.6666666667px; }
+
+.col-12 {
+  width: 100px; }
+
+/*# sourceMappingURL=main.css.map */
